@@ -24,7 +24,7 @@
                                      <h1>Bookly Insights <br>Unleashing the Power of Books</h1>
 										<p>There are countless treasures within the pages of every book, <br>each offering unique adventures, wisdom, and perspectives. <br>Dive into the enchanting world of literature with Bookly, <br>where stories come alive and imagination knows no bounds.</p>
 
-                                    <a class="read_more" href="about.html">About Company </a><a class="read_more" href="contact.html">Contact </a>
+                                    <a class="read_more" href="about.jsp">About  </a><a class="read_more" href="contact.jsp">Contact </a>
                                  </div>
                               </div>
                            </div>
@@ -96,14 +96,18 @@
                  <div class="col-md-6">
                   <div id="ho_nf" class="portfolio_main text_align_left">
                      <figure>
-                        <img src="<%= request.getContextPath() %>/template/images/book.jpg" alt="#"/>
+                        <img src="<%= request.getContextPath() %>/template/images/img3.jpg" alt="#"/>
                         <div class="portfolio_text">
                            <div class="li_icon">
-                              <a href="https://www.dbooks.org/introductory-algebra-1607826593/pdf/"><span>Read Now</span></a>
-                              <a href="https://www.dbooks.org/d/1607826593-1735852305-f7e52c3e04c90d1f/"><span>Download</span></a>
+                              <a href="https://www.dbooks.org/aspnet-core-6-succinctly-164200233x/pdf/"><span>Read Now</span></a>
+                              <a href="https://www.dbooks.org/d/164200233X-1736330265-cde3ff725260d513/"><span>Download</span></a>
                            </div>
-                           <h3>Carrency Dashbord</h3>
-                           <p>There are many variations of passages of Lorem Ipsum available, but the majoraity have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable</p>
+                           <h3>ASP.NET Core 6 Succinctly</h3>
+                           <p>
+In ASP.NET Core 6 Succinctly, author Dirk Strauss guides web developers through some of the significant performance and feature improvements newly available in ASP.NET Core 6. Learn about the unmissable practicality of Hot Reload, explore super-helpful C# 10 features, pick up the essentials of how to build a minimal API, and discover how and why developers should use dependency injection.
+	
+This open book is licensed under a Open Publication License (OPL). You can download ASP.NET Core 6 Succinctly ebook for free in PDF format (2.2 MB).
+</p>
                         </div>
                      </figure>
                   </div>
@@ -111,28 +115,35 @@
                 <div class="col-md-6">
                   <div id="ho_nf" class="portfolio_main text_align_left">
                      <figure>
-                        <img src="<%= request.getContextPath() %>/template/images/book.jpg" alt="#"/>
+                        <img src="<%= request.getContextPath() %>/template/images/img5.jpg" alt="#"/>
                         <div class="portfolio_text">
                            <div class="li_icon">
-                              <a href="https://www.dbooks.org/introductory-algebra-1607826593/pdf/"><span>Read Now</span></a>
-                              <a href="https://www.dbooks.org/d/1607826593-1735852305-f7e52c3e04c90d1f/"><span>Download</span></a>
+                              <a href="https://www.dbooks.org/build-a-raspberry-pi-media-player-5709901124/pdf/"><span>Read Now</span></a>
+                              <a href="https://www.dbooks.org/d/5709901124-1736330438-80711b98c2be0682/"><span>Download</span></a>
                            </div>
-                           <h3>Carrency Dashbord</h3>
-                           <p>There are many variations of passages of Lorem Ipsum available, but the majoraity have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable</p>
+                           <h3>Build a Raspberry Pi Media Player</h3>
+                           <p>Power up your TV and music system with Raspberry Pi: build the ultimate media centre, smart music system, and create a home server.
+- Inside Build a Raspberry Pi Media Player.
+- Create the ultimate media centre. Gather your parts and build your Raspberry Pi media player.
+- Install media player software. How to use RetroPie software for playing games, and add Kodi for media and streaming.
+- Build the ultimate home server. Sharing and storing files on your Raspberry Pi enables you to access them from anywhere in the home.
+- Create an amazing music system. Create a digital jukebox using open-source software.
+- Set up multi-room audio. Fill your home with sound using a multi-room setup.
+- Product tests. The best media player equipment tested.</p>
                         </div>
                      </figure>
                   </div>
                </div>    <div class="col-md-6">
                   <div id="ho_nf" class="portfolio_main text_align_left">
                      <figure>
-                        <img src="<%= request.getContextPath() %>/template/images/book.jpg" alt="#"/>
+                        <img src="<%= request.getContextPath() %>/template/images/img4.jpg" alt="#"/>
                         <div class="portfolio_text">
                            <div class="li_icon">
-                              <a href="https://www.dbooks.org/introductory-algebra-1607826593/pdf/"><span>Read Now</span></a>
-                              <a href="https://www.dbooks.org/d/1607826593-1735852305-f7e52c3e04c90d1f/"><span>Download</span></a>
+                              <a href="https://www.dbooks.org/engineering-systems-dynamics-modelling-simulation-and-design-199013209x/pdf/"><span>Read Now</span></a>
+                              <a href="https://www.dbooks.org/d/199013209X-1736330718-46da66d4eab85250/"><span>Download</span></a>
                            </div>
-                           <h3>Carrency Dashbord</h3>
-                           <p>There are many variations of passages of Lorem Ipsum available, but the majoraity have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable</p>
+                           <h3>Engineering Systems Dynamics, Modelling, Simulation, and Design</h3>
+                           <p>This open education resource presents effective system modelling methods, including Lagrangian and bond graph, and the application of a relevant engineering software tool, 20-sim. The content is designed for engineering students and professionals in the field to support their understanding and application of these methods for modelling, simulation, and design of engineering systems. The text also includes videos showing selected worked-out examples.</p>
                         </div>
                      </figure>
                   </div>
@@ -140,33 +151,21 @@
                <div class="col-md-6">
                   <div id="ho_nf" class="portfolio_main text_align_left">
                      <figure>
-                        <img src="<%= request.getContextPath() %>/template/images/book.jpg" alt="#"/>
+                        <img src="<%= request.getContextPath() %>/template/images/img2.jpg" alt="#"/>
                         <div class="portfolio_text">
                            <div class="li_icon">
-                              <a href="https://www.dbooks.org/introductory-algebra-1607826593/pdf/"><span>Read Now</span></a>
-                              <a href="https://www.dbooks.org/d/1607826593-1735852305-f7e52c3e04c90d1f/"><span>Download</span></a>
+                              <a href="https://www.dbooks.org/financing-investment-in-times-of-high-public-debt-1805112015/pdf/"><span>Read Now</span></a>
+                              <a href="https://www.dbooks.org/d/1805112015-1736342184-dfc4577410d59571/"><span>Download</span></a>
                            </div>
-                           <h3>Carrency Dashbord</h3>
-                           <p>There are many variations of passages of Lorem Ipsum available, but the majoraity have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable</p>
+                           <h3>Financing Investment in Times of High Public Debt</h3>
+                           <p>The fourth book in the 'European Public Investment Outlook' series focuses on the urgent issue of how to finance needed investment in critical tangible and intangible infrastructure given high levels of public debt, a thorny problem facing many governments across Europe. Drawing on expertise from academics, researchers at public policy institutes and international governance bodies, the contributors analyse the current situation and prospects and propose feasible solutions.
+                             Financing Investment in Times of High Public Debt offers a powerful combination of high-level analysis of cross-continental policies and trends, with close examination of specific contexts in France, Italy, Germany and Spain. The chapters in Part II explore challenges including how to finance climate investments, the extent to which national promotional banks can offer solutions, EU budget reform and recent trends in tax progressivity.
+                             This book is essential reading for economists, policymakers, and anyone interested in implementing and financing public policy in Europe and wanting to better understand the intricacies of EU governance and institutions.</p>
                         </div>
                      </figure>
                   </div>
                </div>
-               <div class="col-md-6">
-                  <div id="ho_nf" class="portfolio_main text_align_left">
-                     <figure>
-                        <img src="images/prot4.png" alt="#"/>
-                        <div class="portfolio_text">
-                           <div class="li_icon">
-                              <a href="Javascript:void(0)"><i class="fa fa-search" aria-hidden="true"></i></a>
-                              <a href="Javascript:void(0)"><i class="fa fa-link" aria-hidden="true"></i></a>
-                           </div>
-                           <h3>Carrency Dashbord</h3>
-                           <p>There are many variations of passages of Lorem Ipsum available, but the majoraity have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable</p>
-                        </div>
-                     </figure>
-                  </div>
-               </div>
+       
                <div class="col-md-12">
                   <a class="read_more" href="books.jsp">See More</a>
                </div>

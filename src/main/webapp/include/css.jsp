@@ -1,5 +1,8 @@
         <link href="<%= request.getContextPath() %>/template/css/bootstrap.css" rel="stylesheet">
         <link href="<%= request.getContextPath() %>/template/css/bootstrap.min.css" rel="stylesheet">
+          <link href="<%= request.getContextPath() %>/template/css/bootstrap-theme.css" rel="stylesheet">
+        
+           <link href="<%= request.getContextPath() %>/template/css/light-box.css" rel="stylesheet">   
         <link href="<%= request.getContextPath() %>/template/css/font-awesome.min.css" rel="stylesheet">
         <link href="<%= request.getContextPath() %>/template/css/jquery.mCustomScrollbar.min.css" rel="stylesheet">
         <link href="<%= request.getContextPath() %>/template/css/owl.carousel.css" rel="stylesheet">
