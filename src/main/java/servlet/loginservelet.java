@@ -1,5 +1,6 @@
 package servlet;
 
+import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
@@ -48,10 +49,15 @@ public class loginservelet extends HttpServlet {
 		    boolean isValid = logDAO.check(log);
 
 	        if(isValid) {
-	        	response.sendRedirect("daooksshboard.jsp");
+	        	response.sendRedirect("books.jsp");
 	        }else
 	        {
 	        	String Error ="passwrod or email is incorrect";
+	        	 request.setAttribute("error", Error);
+
+	             // Forward the request to JSP
+	             RequestDispatcher dispatcher = request.getRequestDispatcher("login.jsp");
+	             dispatcher.forward(request, response);
 	        }
 	        
 	    } catch (Exception e) {

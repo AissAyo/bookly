@@ -134,7 +134,7 @@ This open access book is Complimented by PortWorx. You can download Managing Clo
                         <div class="portfolio_text">
                            <div class="li_icon">
                               <a href="https://www.dbooks.org/svelte-succinctly-1642002305/read/"><span>Read Now</span></a>
-                              <a href="https://www.dbooks.org/d/1642002305-1736391041-1992f075435afe8f/"><span>Download</span></a>
+                              <a href="https://www.dbooks.org/d/5709901124-1736417874-d1e95e74ab17a6e9/"><span>Download</span></a>
                            </div>
                            <h3>Svelte Succinctly</h3>
                            <p>Svelte departs from the virtual DOM approach by compiling the code you write into native-browser JavaScript when you build your application. 

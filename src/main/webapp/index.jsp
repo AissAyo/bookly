@@ -100,7 +100,7 @@
                         <div class="portfolio_text">
                            <div class="li_icon">
                               <a href="https://www.dbooks.org/aspnet-core-6-succinctly-164200233x/pdf/"><span>Read Now</span></a>
-                              <a href="https://www.dbooks.org/d/164200233X-1736330265-cde3ff725260d513/"><span>Download</span></a>
+                              <a href="https://www.dbooks.org/d/164200233X-1736417736-a107ff2485ef3e57/"><span>Download</span></a>
                            </div>
                            <h3>ASP.NET Core 6 Succinctly</h3>
                            <p>

@@ -4,6 +4,16 @@
 <head>
 <meta charset="UTF-8">
 <title>Bookly-Log in/Sign up</title>
+<style>
+.error{
+color:red;
+position:absolute;
+top:50%;
+left:50%;
+transform: translate(-50%,-50%);
+bottom:300px;
+}
+</style>
 <%@ include file="/include/css.jsp" %>
 </head>
 <body class="main-layout inner_page" 
@@ -25,9 +35,15 @@
                 <input type="email" name="email"/>
             </label>
             <label>
+            
                 <span>Password</span>
                 <input type="password" name="password"/>
-            </label>
+            </label>	
+            <br>
+
+            <c:if test="${not empty error}">
+   		 <span class="error" style="displat:flex; justify-content:center; aling-item:center">${error}</span>
+	</c:if>
             <p class="forgot-pass">Forgot password?</p>
             <button type="submit" class="submit">Sign In</button>
         </form>

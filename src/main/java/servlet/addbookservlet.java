@@ -5,6 +5,7 @@ package servlet;
 import java.io.IOException;
 
 import DAO.BookDAO;
+import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
@@ -77,6 +78,13 @@ public class addbookservlet extends HttpServlet {
 			BookDAO  bookdao= new BookDAO();
 			bookdao.addbook(book);
 			response.getWriter().write("book added successfully!");
+			String add ="book add succesfully";
+       	 request.setAttribute("add", add);
+
+            // Forward the request to JSP
+            RequestDispatcher dispatcher = request.getRequestDispatcher("add.jsp");
+            dispatcher.forward(request, response);
+			response.sendRedirect("add.jsp");
 		} catch (Exception e) {
 			response.getWriter().write("Error: Unable to add user. " + e.getMessage());
 		}

@@ -5,6 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BOOKLY-ADMIN</title>
+    <style>
+.error{
+color:brown;
+position:absolute;
+
+left:50%;
+transform: translate(-50%,-50%);
+}
+</style>
     <link rel="stylesheet" href="<%= request.getContextPath() %>/template/css/admin-style.css">
 </head>
 <body class="main-layout inner_page" 
@@ -24,6 +33,9 @@
 
 <div class="admin-container">
     <h1>add Books</h1>
+     <c:if test="${not empty add}">
+   		 <h3 class="error" style="displat:flex; justify-content:center; aling-item:center">${add}</h3>
+	</c:if>
 <form action="<%= request.getContextPath() %>/addbookservlet" method="post" class="book-form" >
     
         <label for="title">
